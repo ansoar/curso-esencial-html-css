@@ -1,4 +1,4 @@
-html{
+:root{
   font-size: 16px;
 }
 
@@ -12,6 +12,20 @@ a{
 
 header{
   font-size: 14px;
+  color: #616161;
+}
+
+header a{
+  color: #616161;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #212121;
+}
+
+nav details summary{
+  font-weight: bold;
 }
 
 h1{
