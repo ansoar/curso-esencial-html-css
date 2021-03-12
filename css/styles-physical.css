@@ -67,10 +67,6 @@ h1{
   margin-bottom: 16px;
 }
 
-h1 + p {
-  margin-bottom: 64px;
-}
-
 hr {
   margin: 64px 0;
 }
