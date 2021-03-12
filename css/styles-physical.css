@@ -77,13 +77,15 @@ hr {
 
 h2{
   font-size: 2em;
-  margin: 40px 0;
+  margin: 64px 0 40px;
+  font-weight: normal;
 }
 
 h3{
   font-size: 1.5em;
   margin-top: 16px;
   margin-bottom: 24px;
+  font-weight: normal;
 }
 
 pre{
@@ -97,6 +99,26 @@ blockquote {
 .hero {
   background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url('../images/patter.png');
   height: 350px;
+}
+
+.section-content:first-of-type {
+  margin: 0;
+}
+
+.section-content {
+  margin-top: 164px;
+}
+
+.section-content ol li {
+  line-height: 24px;
+}
+
+.section-content ul li {
+  margin-bottom: 16px;
+}
+
+.section-content + hr {
+  display: none;
 }
 
 .section-content imag {
